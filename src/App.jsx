@@ -13,7 +13,7 @@ function App() {
         <Route path="/movie/:id" element={<MovieDetail/>}/>
       </Routes>
       {/* Button should be outside Routes */}
-      <Button>Second Button</Button>
+      {/* <Button>Second Button</Button> */}
     </Router>
   )
 }
